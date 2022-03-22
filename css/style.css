@@ -1,0 +1,95 @@
+
+
+ /*  HEADER */
+header{
+  position: fixed;
+  width: 85%;
+  top: 0;
+  right: 0;
+  text-align: right;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 25px;
+  height: 90px;
+  z-index: 999;
+}
+
+header button.call-to-action{
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border-radius: 50px;
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-weight: bold;
+}
+ /*  /HEADER */
+
+
+main .flex-container{
+  height: calc(100vh - 190px);
+  background-color: #141922;
+  display: flex;
+}
+
+
+
+/* MENÙ LATERALE */
+section#aside-menù{
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  background-color: black;
+  height: 100%;
+  padding: 22px 10px 0 10px;
+  flex-shrink: 0;
+}
+
+#aside-menù .logo{
+  height: 78px;
+  flex-shrink: 0;
+}
+
+#aside-menù .logo img{
+  width: 150px;
+}
+
+#aside-menù .navigate{
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+#aside-menù .navigate a{
+  padding-bottom: 15px;
+}
+
+#aside-menù .playlist{
+  height: 100vh;
+  min-height: 96px;
+  overflow-y: auto;
+}
+
+#aside-menù .profile{
+  height: 65px;
+  flex-shrink: 0;
+}
+
+#aside-menù hr{
+  margin: 10px 0;
+}
+
+#aside-menù .user{
+  font-weight: bold;
+}
+/* /MENÙ LATERALE */
+}
+
+ 
+footer{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  background-color: #282828;
+  z-index: 2;
+}
